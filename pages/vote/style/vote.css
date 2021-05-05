@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Lato', Sans-Serif;
+}
+.confirmVote {
+  height: 0;
+  overflow: hidden;
+}
+.expand {
+  animation: expand .6 cubic-bezier(0.23, 1, 0.320, 1) forwards;
+}
+@keyframes expand {
+  from {
+    height: 0;
+  } to {
+    height: auto;
+  }
+}
